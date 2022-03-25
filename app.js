@@ -3,7 +3,7 @@ const todoInput = document.querySelector(".todo-input");
 const todoButton = document.querySelector(".todo-button");
 const todoList = document.querySelector(".todo-list");
 const filterOption = document.querySelector(".filter-todo");
-const clearAll = document.querySelector(".clear-all");
+const clearAll = document.querySelector(".clear-btn");
 
 //Event Listeners
 document.addEventListener("DOMContentLoaded", getTodos);
